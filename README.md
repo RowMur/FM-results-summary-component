@@ -25,16 +25,14 @@ Users should be able to:
 
 ### Screenshots
 
-![](./assets\images\desktopScreenshot.jpg)
+![](./assets/images/desktopScreenshot.jpg)
 
-![](./assets\images\mobileScreenshot.jpg)
+![](./assets/images/mobileScreenshot.jpg)
 
-<!-- ### Links
+### Links
 
-- Solution Link: [Add solution URL here](https://your-solution-url.com)
-- Live Site Link: [Add live site URL here](https://your-live-site-url.com)
-
-**Update** -->
+- Solution Link: [Solution](https://www.frontendmentor.io/solutions/basic-html-and-css-solution-pzunOR2ovq)
+- Live Site Link: [Site](https://wonderful-mochi-f78c79.netlify.app/)
 
 ## My process
 
