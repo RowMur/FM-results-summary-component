@@ -198,4 +198,5 @@ body {
 
 .continueButton:hover {
   cursor: pointer;
+  background: linear-gradient(var(--lightSlateBlue), var(--lightRoyalBlue));
 }
