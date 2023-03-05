@@ -196,7 +196,8 @@ body {
   font-family: inherit;
 }
 
-.continueButton:hover {
+.continueButton:hover,
+.continueButton:focus {
   cursor: pointer;
   background: linear-gradient(var(--lightSlateBlue), var(--lightRoyalBlue));
 }
