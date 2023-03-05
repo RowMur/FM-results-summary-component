@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="resultWrapper">
+        <p class="resultTitle">Your Result</p>
+        <div class="scoreWrapper">
+          <div class="score">
+            76
+            <div>of 100</div>
+          </div>
+        </div>
+        <p class="resultGrading">Great</p>
+        <p class="resultCaption">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="summaryWrapper">
+        <p class="summaryTitle">Summary</p>
+        <div class="individualScoreWrapper reaction">
+          <img src="assets\images\icon-reaction.svg" />
+          <p class="individualScoreTitle">Reaction</p>
+          <p class="individualScore reaction">80</p>
+          <p class="outOf">/ 100</p>
+        </div>
+        <div class="individualScoreWrapper memory">
+          <img src="assets\images\icon-memory.svg" />
+          <p class="individualScoreTitle">Memory</p>
+          <p class="individualScore memory">92</p>
+          <p class="outOf">/ 100</p>
+        </div>
+        <div class="individualScoreWrapper verbal">
+          <img src="assets\images\icon-verbal.svg" />
+          <p class="individualScoreTitle">Verbal</p>
+          <p class="individualScore verbal">61</p>
+          <p class="outOf">/ 100</p>
+        </div>
+        <div class="individualScoreWrapper visual">
+          <img src="assets\images\icon-visual.svg" />
+          <p class="individualScoreTitle">Visual</p>
+          <p class="individualScore visual">80</p>
+          <p class="outOf">/ 100</p>
+        </div>
+        <button class="continueButton">Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Rowan Murray</a>.
+    </div>
+  </body>
+</html>
+
+<!-- Reaction 80 / 100 Memory 92 / 100 Verbal 61 / 100
+Visual 72 / 100 Continue -->
